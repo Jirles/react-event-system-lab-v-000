@@ -8,6 +8,6 @@ export default class Keypad extends React.Component {
     return;
   }
   render(){
-
+    <input type='text' onClick={this.printMessage} />
   }
 }
