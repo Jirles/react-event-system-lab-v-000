@@ -5,6 +5,7 @@ import PropTypes from 'prop-types';
 export default class Keypad extends React.Component {
   let printMessage = () => {
     console.log('Entering password...');
+    return;
   }
   render(){
 
