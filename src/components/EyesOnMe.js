@@ -7,7 +7,7 @@ export default class EyesOnme extends React.Component {
     console.log('Good!');
     return;
   }
-  const getAttention = () => {
+  getAttention = () => {
     console.log('Hey! Eyes on me!');
     return;
   }
