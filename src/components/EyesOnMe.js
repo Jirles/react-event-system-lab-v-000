@@ -4,7 +4,8 @@ import PropTypes from 'prop-types';
 
 export default class EyesOnme extends React.Component {
   const sayGood = () => {
-    
+    console.log('Good!');
+    return;
   }
   const getAttention = () => {
     console.log('Hey! Eyes on me!');
