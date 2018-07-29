@@ -3,6 +3,9 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 export default class EyesOnme extends React.Component {
+  const sayGood = () => {
+    
+  }
   const getAttention = () => {
     console.log('Hey! Eyes on me!');
     return;
