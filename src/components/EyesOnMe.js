@@ -12,6 +12,6 @@ export default class EyesOnme extends React.Component {
     return;
   }
   render(){
-    <button onFocus={sayGood()} onBlur={getAttention()}>Eyes on me</button>
+    <button onFocus={this.sayGood()} onBlur={this.getAttention()}>Eyes on me</button>
   }
 }
